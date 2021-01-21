@@ -1,3 +1,12 @@
+#' Load in protein data
+#'
+#' @param sequence A string of 1-letter amino acid sequence
+#'
+#' @return A parsed tibble of protein data
+#' @export
+#'
+#' @examples
+#' load_protein("MSRRP")
 load_protein <- function(sequence) {
 
   assertthat::assert_that(assertthat::is.string(sequence))
