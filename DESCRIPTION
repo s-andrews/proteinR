@@ -18,3 +18,5 @@ Imports:
     stringr,
     tibble,
     assertthat
+Suggests: 
+    testthat
